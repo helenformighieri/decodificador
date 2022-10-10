@@ -1,0 +1,120 @@
+* {
+	font-family: 'Andika', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+body {
+	background: #ADD8E6;
+}
+
+main {
+	display: flex;
+}
+
+h1 {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+h1:before {	
+    content: "🔒";
+}
+
+h1:after {
+	
+    content: "🔒";
+}
+
+.caixaUm {
+	padding: 5% 10% 10% 20%;
+	border: 5px;
+}
+
+.textoUm {
+	font-weight: bold;
+	border:  none;
+	border-radius: 10px;
+	background: #ADD8E6
+}
+
+p {
+	font-size: 12px;
+	margin: 5px;
+}
+
+.caixaDois {
+	padding: 5% 10% 0 0;
+	border: 5px;
+}
+
+.textoDois {
+	height: 460px;
+	width: 300px;
+	border-radius: 10px;
+	border: none;
+	background-position: center ;
+
+}
+
+.codificar {
+	padding: 15px;
+	margin: 10px 50px 10px 90px;
+	background: #E6C972;
+	color: black;
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+
+}
+
+.codificar:hover {
+	background: #FFFFFF;
+	transform: scale(1.0);
+}
+
+.decodificar {
+	padding: 15px;
+	margin: 5px 50px 5px 50px;
+	background: #E6C972;
+	color: black;
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+}
+
+.decodificar:hover {
+	background: #FFFFFF;
+	transform: scale(1.0);
+}
+
+.copiar {
+	display: flex;
+	padding: 15px;
+	margin: 27px 100px 10px 100px;
+	align: center;
+	background: #E6C972;
+	color: black;
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+}
+
+.copiar:hover {
+	background: #FFFFFF;
+	transform: scale(1.0);
+}
+
+footer {
+	margin: 0;
+	height: 100%;
+	text-align: center;
+	background: #E6C972;
+}
+
+.copyright{
+	font-size: 20px;
+}
