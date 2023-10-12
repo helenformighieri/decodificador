@@ -68,7 +68,7 @@ p.aviso{
 }
 
 footer{
-	padding: 10px;
+	padding: 5px;
 	background-color: #53A2BE;
 	color: azure;
 }
@@ -76,3 +76,4 @@ footer{
 footer p{
 	font-size: 1em;
 }
+
