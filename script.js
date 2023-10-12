@@ -1,7 +1,8 @@
+//Variaveis
 const inputUm = document.querySelector(".textoUm");
 const inputDois = document.querySelector(".textoDois");
 
-/* Codificando */
+//Botão para codificar
 function btnCodificar() {
 	const textoCodificado = codificar(inputUm.value);
 	inputDois.value = textoCodificado
