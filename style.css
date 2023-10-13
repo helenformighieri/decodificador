@@ -8,9 +8,10 @@
 
 body {
 	background: #ffe787ba;
+	height: 100%;
 }
 
-header{
+header {
 	background-color: #53A2BE;
 	color: azure;
 	border-bottom: 2px solid black;
@@ -20,7 +21,7 @@ h1 {
 	padding: 20px;
 	font-size: 2.5em;
 	text-align: center;
-    font-weight: 400;
+	font-weight: 400;
 }
 
 p {
@@ -28,11 +29,11 @@ p {
 	margin: 5px;
 }
 
-textarea:focus{
+textarea:focus {
 	outline: none;
 }
 
-textarea{
+textarea {
 	padding: 20px;
 	margin: 20px;
 	border: none;
@@ -41,7 +42,7 @@ textarea{
 }
 
 
-button{
+button {
 	font-size: 1.2em;
 	background-color: #53A2BE;
 	color: azure;
@@ -51,7 +52,7 @@ button{
 	border-radius: 5px;
 }
 
-button:hover{
+button:hover {
 	background-color: #4689a1;
 }
 
@@ -62,18 +63,41 @@ footer {
 	background: #E6C972;
 }
 
-p.aviso{
+p.aviso {
 	font-size: 0.7em;
 	margin-bottom: 20px;
 }
 
-footer{
+footer {
 	padding: 5px;
 	background-color: #53A2BE;
 	color: azure;
 }
 
-footer p{
+footer p {
 	font-size: 1em;
 }
 
+@media(max-width: 576px) {
+	header{
+		display: block;
+		width: 100%;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+	
+	.col{
+		display: block;
+		width: 100%;
+	}
+}
+
+@media (min-width: 1400px){
+	main{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 9%;
+	}
+}
